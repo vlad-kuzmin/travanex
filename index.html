@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="static/css/grid.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/media.css">
+    <title>Travanex</title>
+    <link type="image/x-icon" href="static/images/logo.svg" rel="shortcut icon">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="row nav_row justify__content__between">
+                    <div class="col-auto nav_img">
+                        <img src="static/images/logo.svg" alt="Travanex" class="logo">
+                    </div>
+                    <div class="col-auto nav_block">
+                        <ul class="nav_list">
+                            <li class="nav_list__elem"><a href="" class="nav_link">Explore</a></li>
+                            <li class="nav_list__elem"><a href="" class="nav_link">Destination</a></li>
+                            <li class="nav_list__elem"><a href="" class="nav_link">Pricing</a></li>
+                            <li class="nav_list__elem"><a href="" class="nav_link">Travel guide</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile_menu">
+                        <button id="menu_btn" class="menu"  aria-label="Main Menu">
+                            <svg width="40" height="40" viewBox="0 0 100 100">
+                              <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                              <path class="line line2" d="M 20,50 H 80" />
+                              <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 mobile_menu_block">
+                        <ul class="mobile_menu_list">
+                            <li class="mobile_menu_list__elem"><a href="" class="nav_link">Explore</a></li>
+                            <li class="mobile_menu_list__elem"><a href="" class="nav_link">Destination</a></li>
+                            <li class="mobile_menu_list__elem"><a href="" class="nav_link">Pricing</a></li>
+                            <li class="mobile_menu_list__elem"><a href="" class="nav_link">Travel guide</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 header_block">
+                    <span class="header_mini_text green">FEATURED POST</span>
+                    <p class="header_text">National Geographic Pristine Seas recommends the designation of two new marine protected areas in Uruguay</p>
+                    <ul class="header_list">
+                        <li class="header_elem"><span class="header_mimi_text">September 22, 2022 ·</span></li>
+                        <li class="header_elem"></li>
+                        <li class="header_elem">
+                            <!-- <img src="static/images/person.svg" alt="Person" class="person_img"> -->
+                            <span class="header_mimi_text green">AARON SMITH</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="header__button">Read More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="travel">
+        <div class="container">
+           <div class="row travel__title-row justify__content__between">
+                <div class="col-6 travel__title-block">
+                    <ul class="title_list">
+                        <li class="title_list_elem">
+                            <h2 class="travel_title">Popular Travel</h2>
+                        </li>
+                        <li class="title_list_elem"></li>
+                    </ul>
+                </div>
+                <div class="col-6 travel__view-block">
+                    <ul class="view_list">
+                        <li class="view_list_elem">
+                            <p class="travel_view_more">VIEW MORE</p>
+                        </li>
+                        <li class="view_list_elem"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="travel_gallery">
+                <div class="travel__gallery-elem">
+                    <img src="static/images/bali.png" alt="" class="travel__gallery-img">
+                    <h2 class="travel__gallery-title">Bali, Indonesia</h2>
+                </div>
+                <div class="travel__gallery-elem">
+                    <img src="static/images/raja.png" alt="" class="travel__gallery-img">
+                    <h2 class="travel__gallery-title">Raja Ampat, Indonesia</h2>
+                </div>
+                <div class="travel__gallery-elem">
+                    <img src="static/images/bromo.png" alt="" class="travel__gallery-img">
+                    <h2 class="travel__gallery-title">Bromo, Indonesia</h2>
+                </div>
+                <div class="travel__gallery-elem">
+                    <img src="static/images/nusa.png" alt="" class="travel__gallery-img">
+                    <h2 class="travel__gallery-title">Nusa Tenggara, Indonesia</h2>
+                </div>
+            </div>
+            <div class="row on-your-location__row justify__content__between">
+                <div class="col-6 on-your-location__title-block">
+                    <h2 class="on-your-location__title">Based on your Location</h2>
+                </div>
+                <div class="col-6 on-your-location__geo-block">
+                    <ul class="geo-block__list">
+                        <li class="geo-block__list-item"></li>
+                        <li class="geo-block__list-item">
+                            <p class="geo-block__mini-text">Luzern, Switzerland<span class="green"> (change)</span></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="on-your-location__cards-block">
+                <div class="on-your-location__card">
+                    <div class="on-your-location__card-img-box">
+                        <img src="static/images/swiss_mountain.png" alt="Swiss Mountain" class="on-your-location__card-img">
+                    </div>
+                    <div class="on-your-location__card-text-box">
+                        <p class="on-your-location__loc-type green">MOUNTAIN</p>
+                        <h2 class="on-your-location__loc-name">Swiss Mountain</h2>
+                        <p class="on-your-location__loc-desc">The Matterhorn, Switzerland's iconic pointed peak is one of the highest mountains in the Alps. On the border with Italy, this legendary peak rises to 4,478 meters, and its four steep faces lie in the direction of the compass points.</p>
+                        <ul class="on-your-location__card-list">
+                            <li class="on-your-location__list-item">
+                                <p class="green">View details</p>
+                            </li>
+                            <li class="on-your-location__list-item">
+                                <img class="on-your-location__right-arrow" src="static/images/right_arrow.svg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="on-your-location__card">
+                    <div class="on-your-location__card-img-box">
+                        <img src="static/images/swiss_mountain.png" alt="Swiss Mountain" class="on-your-location__card-img">
+                    </div>
+                    <div class="on-your-location__card-text-box">
+                        <p class="on-your-location__loc-type green">MOUNTAIN</p>
+                        <h2 class="on-your-location__loc-name">The Matterhorn</h2>
+                        <p class="on-your-location__loc-desc">The Matterhorn, Switzerland's iconic pointed peak is one of the highest mountains in the Alps. On the border with Italy, this legendary peak rises to 4,478 meters, and its four steep faces lie in the direction of the compass points.</p>
+                        <ul class="on-your-location__card-list">
+                            <li class="on-your-location__list-item">
+                                <p class="green">View details</p>
+                            </li>
+                            <li class="on-your-location__list-item">
+                                <img class="on-your-location__right-arrow" src="static/images/right_arrow.svg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <div class="container">
+            <h2 class="news__title">What’s news?</h2>
+            <div class="news__grid-box">
+                <div class="news__grid-item">
+                    <img src="static/images/news_1.png" alt="" class="news__grid-img">
+                    <ul class="news__grid-list">
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text green">Culinary</p>
+                        </li>
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text green">·</p>
+                        </li>
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text">1 hour ago </p>
+                        </li>
+                    </ul>
+                    <h2 class="news__grid-title">The Best Dishes to Eat in Thailand</h2>
+                    <p class="news__grid-text">Pad thai is one of Thailands national dishes and is a go-to for tourists who are starting out their Thai cuisine exploration. Pad thai is a fried noodle dish which is...</p>
+                    <a href="" class="news__grid-link green">Read more</a>
+                </div>
+                <div class="news__grid-item">
+                    <img src="static/images/news_2.png" alt="" class="news__grid-img">
+                    <ul class="news__grid-list">
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text green">Culinary</p>
+                        </li>
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text green">·</p>
+                        </li>
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text">1 hour ago </p>
+                        </li>
+                    </ul>
+                    <h2 class="news__grid-title">Borneo: Get Up Close with Orangutans</h2>
+                    <p class="news__grid-text">Pad thai is one of Thailands national dishes and is a go-to for tourists who are starting out their Thai cuisine exploration. Pad thai is a fried noodle dish which is...</p>
+                    <a href="" class="news__grid-link green">Read more</a>
+                </div>
+                <div class="news__grid-item">
+                    <img src="static/images/news_3.png" alt="" class="news__grid-img">
+                    <ul class="news__grid-list">
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text green">Culinary</p>
+                        </li>
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text green">·</p>
+                        </li>
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text">1 hour ago </p>
+                        </li>
+                    </ul>
+                    <h2 class="news__grid-title">First Trip to Bali, Indonesia</h2>
+                    <p class="news__grid-text">Pad thai is one of Thailands national dishes and is a go-to for tourists who are starting out their Thai cuisine exploration. Pad thai is a fried noodle dish which is...</p>
+                    <a href="" class="news__grid-link green">Read more</a>
+                </div>
+                <div class="news__grid-item">
+                    <img src="static/images/news_4.png" alt="" class="news__grid-img">
+                    <ul class="news__grid-list">
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text green">Culinary</p>
+                        </li>
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text green">·</p>
+                        </li>
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text">1 hour ago </p>
+                        </li>
+                    </ul>
+                    <h2 class="news__grid-title">Japan and Sakura: The Iconic</h2>
+                    <p class="news__grid-text">Pad thai is one of Thailands national dishes and is a go-to for tourists who are starting out their Thai cuisine exploration. Pad thai is a fried noodle dish which is...</p>
+                    <a href="" class="news__grid-link green">Read more</a>
+                </div>
+                <div class="news__grid-item">
+                    <img src="static/images/news_5.png" alt="" class="news__grid-img">
+                    <ul class="news__grid-list">
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text green">Culinary</p>
+                        </li>
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text green">·</p>
+                        </li>
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text">1 hour ago </p>
+                        </li>
+                    </ul>
+                    <h2 class="news__grid-title">Japan and Sakura: The Iconic</h2>
+                    <p class="news__grid-text">Pad thai is one of Thailands national dishes and is a go-to for tourists who are starting out their Thai cuisine exploration. Pad thai is a fried noodle dish which is...</p>
+                    <a href="" class="news__grid-link green">Read more</a>
+                </div>
+                <div class="news__grid-item">
+                    <img src="static/images/news_6.png" alt="" class="news__grid-img">
+                    <ul class="news__grid-list">
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text green">Culinary</p>
+                        </li>
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text green">·</p>
+                        </li>
+                        <li class="news__grid-list-item">
+                            <p class="news__grid-list-mini-text">1 hour ago </p>
+                        </li>
+                    </ul>
+                    <h2 class="news__grid-title">Japan and Sakura: The Iconic</h2>
+                    <p class="news__grid-text">Pad thai is one of Thailands national dishes and is a go-to for tourists who are starting out their Thai cuisine exploration. Pad thai is a fried noodle dish which is...</p>
+                    <a href="" class="news__grid-link green">Read more</a>
+                </div>
+            </div>
+            <a href="" class="news__learn-more-button">Learn More</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid-box">
+                <div class="footer__left-box">
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <h3 class="footer__list-title">EXPLORE</h3>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Mountain</p>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Sea & Beach</p>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Forest</p>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Lake</p>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Temples</p>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Gardens</p>
+                        </li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <h3 class="footer__list-title">Top Places</h3>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Bali, Indonesia</p>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Tokyo, Japan</p>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Bangkok, Thailand</p>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Arizona, USA</p>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Melbourne, Australie</p>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Seoul, South Korea</p>
+                        </li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <h3 class="footer__list-title">Community</h3>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Forum</p>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Travel Guide</p>
+                        </li>
+                        <li class="footer__list-item">
+                            <p class="footer__list-text">Contact Us</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__right-box">
+                    <div class="right-box__empty-box"></div>
+                    <div class="content-box">
+                        <h3 class="footer__right-box-title">CONNECT WITH US</h3>
+                        <p class="right-box__text">
+                            Brian Adams St. 56 Travanex Office
+                            Stray Tower 2, Janeiro
+                            Sao Paolo, Brazil (ZIP 12214)
+                            (+55) 48126055
+                        </p>
+                        <ul class="right-box__list">
+                            <li class="right-box__list-item">
+                                <img src="static/images/twiter.svg" alt="twiter" class="right-box__list-img">
+                            </li>
+                            <li class="right-box__list-item">
+                                <img src="static/images/discord.svg" alt="discord" class="right-box__list-img">
+                            </li>
+                            <li class="right-box__list-item">
+                                <img src="static/images/facebook.svg" alt="facebook" class="right-box__list-img">
+                            </li>
+                            <li class="right-box__list-item">
+                                <img src="static/images/instagram.svg" alt="instagram" class="right-box__list-img">
+                            </li>
+                            <li class="right-box__list-item">
+                                <img src="static/images/mail.svg" alt="mail" class="right-box__list-img">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__copyright-box">
+                    <p class="footer__copyright">2023 © Travanex. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="static/js/jquery-3.6.0.min.js"></script>
+    <script src="static/js/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+
+@media (min-width: 0px) and (max-width: 770px) {
+    .travel_gallery {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .travel__view-block {
+        text-align: left;
+    }
+    .nav_list {
+        display: none;
+    }
+
+    .mobile_menu {
+        display: flex;
+    }
+    .on-your-location__geo-block {
+        text-align: left;
+    }
+    .on-your-location__cards-block {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .news__grid-box {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 770px) and (max-width: 980px) {
+    .travel__gallery-title {
+        font-size: 25px;
+        bottom: 23px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 770px) {
+    .footer__grid-box {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .footer__left-box {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-column: span 1 / span 1;
+    }
+    
+    .footer__right-box {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .content-box {
+        grid-column: span 1 / span 1;
+        /* text-align: right; */
+    }
+
+    .footer__copyright-box {
+        grid-column: span 2 / span 2;
+    }
+    
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+    .footer__grid-box {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .footer__left-box {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-column: span 1 / span 1;
+    }
+    
+    .footer__right-box {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .content-box {
+        grid-column: span 1 / span 1;
+        /* text-align: right; */
+    }
+
+    .footer__copyright-box {
+        grid-column: span 1 / span 1;
+    }
+
+    .footer__list:nth-child(2n) {
+        text-align: right;
+    }
+    
+    .on-your-location__card {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .on-your-location__card-img-box {
+        grid-column: span 1 / span 1;
+    }
+
+    .on-your-location__card-text-box {
+        grid-column: span 1 / span 1;
+    }
+    
+    .news__grid-box {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
